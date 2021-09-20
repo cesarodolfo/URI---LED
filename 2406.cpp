@@ -70,7 +70,7 @@ int main()
             valido = 'S';
         }
 
-        cout << valido << endl;
+        cout << valido;
     }
 
     return 0;
