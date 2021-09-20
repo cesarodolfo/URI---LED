@@ -8,19 +8,19 @@ int validapar(char a, char b)
 {
     if (a == '(' && b == ')')
     {
-        return true;
+        return 1;
     }
     else if (a == '{' && b == '}')
     {
-        return true;
+        return 1;
     }
     else if (a == '[' && b == ']')
     {
-        return true;
+        return 1;
     }
     else
     {
-        return false;
+        return 0;
     }
 }
 
